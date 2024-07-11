@@ -1,5 +1,5 @@
 {
-  "name": "@jacquesngomeheffa/react-native-navigation-mapbox",
+  "name": "@jacques_gordon/react-native-navigation-mapbox",
   "version": "1.0.1",
   "description": "Smart Mapbox turn-by-turn routing based on real-time traffic for React Native.",
   "main": "lib/commonjs/index",
@@ -41,15 +41,16 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/jacquesngomeheffa/react-native-mapbox-navigation",
+  "repository": "https://github.com/jacquesngomeheffa/react-native-navigation-mapbox",
   "author": "Jacques <ngomeheffa@gmail.com> (https://github.com/jacquesngomeheffa)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacquesngomeheffa/react-native-mapbox-navigation/issues"
+    "url": "https://github.com/jacquesngomeheffa/react-native-navigation-mapbox/issues"
   },
-  "homepage": "https://github.com/jacquesngomeheffa/react-native-mapbox-navigation#readme",
+  "homepage": "https://github.com/jacquesngomeheffa/react-native-navigation-mapbox#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
@@ -84,7 +85,6 @@
   "engines": {
     "node": ">= 16.0.0"
   },
-  "packageManager": "^yarn@1.22.15",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
@@ -150,7 +150,7 @@
       [
         "typescript",
         {
-          "project": "tsconfig.build.json"
+          "project": "tsconfig.json"
         }
       ]
     ]
